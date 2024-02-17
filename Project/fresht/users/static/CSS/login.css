@@ -1,0 +1,116 @@
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url("../Images/bgimg.jpg");
+        background-size: cover;
+    }
+    .login_box{
+        margin: auto;
+        margin-top: 110px;
+        background-color: rgb(255, 255, 255,0.98);
+        width:80%;
+        height:450px;
+        border-radius: 35px;
+    }
+    .user_img{
+        width:120px;
+        height: 120px;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .user_img img{
+        height: 100%;
+        width:100%;
+    }
+    .details{
+        width:80%;
+        text-align: left;
+        padding: 25px;
+        margin: auto;
+        border-radius: 25px;
+        border-color: rgb(130, 120, 114);
+        line-height: 35px;
+        font-size: 17px;
+    }
+    .details form{
+        text-align: center;
+    }
+    .login_form input{
+        width:90%;
+        height:30px;
+        font-size: 16px;
+    }
+    .login_form p{
+        margin: auto;
+        width:30%;
+    }
+    .details a:visited{
+        color: blue;
+    }
+    .details a:hover{
+        color: black;
+    }
+    .details a:link{
+        color: blue;
+    }
+    .details a:active{
+        color: brown;
+    }
+}
+@media screen and (min-width:480px) {
+    body{
+        background-image: url("../Images/bgimg.jpg");
+        background-size: cover;
+    }
+    .login_box{
+        margin: auto;
+        margin-top: 110px;
+        background-color: rgb(255, 255, 255,0.98);
+        width:30%;
+        height:450px;
+        border-radius: 35px;
+    }
+    .user_img{
+        width:120px;
+        height: 120px;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .user_img img{
+        height: 100%;
+        width:100%;
+    }
+    .details{
+        width:80%;
+        text-align: left;
+        padding: 25px;
+        margin: auto;
+        border-radius: 25px;
+        border-color: rgb(130, 120, 114);
+        line-height: 35px;
+        font-size: 20px;
+    }
+    .details form{
+        text-align: center;
+    }
+    .login_form input{
+        width:90%;
+        height:30px;
+        font-size: 16px;
+    }
+    .login_form p{
+        margin: auto;
+        width:30%;
+    }
+    .details a:visited{
+        color: blue;
+    }
+    .details a:hover{
+        color: black;
+    }
+    .details a:link{
+        color: blue;
+    }
+    .details a:active{
+        color: brown;
+    }
+}

@@ -1,0 +1,146 @@
+@media screen and (max-width: 480px) {
+    .Reviews{
+        margin: 15px 0px;
+        font-size: 32px;
+    }
+    .Movie_Rating{
+        text-align: center;
+        font-size: 28px;
+        margin-top: 16px;
+        width:100%;
+    }
+    .Movie_Ratingd{
+        display: none;
+    }
+    .Rating{
+        font-size: 19px;
+        margin: 10px 15px;
+        text-align: left;
+    }
+    .Ratings{
+        display: none;
+    }
+    .Reviews{
+        width:90%;
+        margin: auto;
+    }
+    .Movie{
+        height:195px;
+        min-width: 325px;
+        padding: 5px;
+        margin: 7px 0;
+    }
+    .Movie img{
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+    }
+    .user_info{
+        display: flex;
+        line-height: 55px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    .user_rating{
+        margin-right: 20px;
+    }
+    .profile_icon{
+        height:20px;
+        width:20px;
+        padding: 2px;
+        margin-right: 4px;
+    }
+    .profile_icon img{
+        height: 100%;
+        width:100%;
+    }
+    .Comment{
+        font-size: 16px;
+    }
+    .flx{
+        display: flex;
+    }
+    .Reviews p{
+        text-align: center;
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .Reviews{
+        margin: 15px 0px;
+        font-size: 32px;
+    }
+    .Movie_Rating{
+        display: none;
+    }
+    .Movie_Ratingd{
+        display:flex;
+        justify-content:space-between;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .Ratings{
+        font-size: 22px;
+        margin: 15px 15px;
+        text-align: left;
+    }
+    .Reviews p{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom:10px;
+    }
+    .Rating{
+        display: none;
+    }
+    .Reviews{
+        width:90%;
+        margin: auto;
+    }
+    .Movie{
+        height:350px;
+        width:2000px;
+        padding: 5px;
+        margin: 0 8px;
+    }
+    .Movie img{
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+    }
+    .user_info{
+        display: flex;
+        line-height: 55px;
+        font-size: 24px;
+        justify-content: space-between;
+        margin:5px 0;
+    }
+    .user_rating{
+        margin-right: 20px;
+    }
+    .profile_icon{
+        height:25px;
+        width:25px;
+        padding: 2px;
+        margin-right: 4px;
+    }
+    .profile_icon img{
+        height: 100%;
+        width:100%;
+    }
+    .Comment{
+        font-size: 18px;
+    }
+    .flx{
+        display: flex;
+    }
+    .review_button{
+        background-color: black;
+        width:fit-content;
+        padding: 12px;
+        color: white;
+        font-size:22px ;
+        margin-left: 10px;
+    }
+}

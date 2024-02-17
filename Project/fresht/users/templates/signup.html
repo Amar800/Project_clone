@@ -1,0 +1,27 @@
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/signup.css">
+    <title>Signup page</title>
+</head>
+<body>
+    <div class="signup_box">
+        <div class="user_img">
+            <img src="../static/Images/profile.png">
+        </div>
+        <div class="details">
+            <form method="post" action="">
+                {% csrf_token %}
+                {{ form.username|attr:"placeholder:Username"|attr:"style:width:90%;height:30px;font-size:16px"}}
+                {{ form.email_address|attr:"placeholder:Email"|attr:"style:width:90%;height:30px;font-size:16px" }}
+                {{ form.password|attr:"placeholder:Password"|attr:"style:width:90%;height:30px;font-size:16px" }}
+                Enable to push notifications :{{ form.notif }}
+                <input type="submit" style="width:30%;height:30px;font-size: 16px;">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

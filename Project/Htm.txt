@@ -1,0 +1,35 @@
+<div class="movies">
+        Top recommendations
+        <div class="banners-mini">
+            <div class="banner-I"><img src="../static/Images/satyaprem-ki-katha.jpg" ></div>
+            <div class="banner-I"><img src="../static/Images/blue-eye-samurai.jpg" ></div>
+            <div class="banner-I"><img src="../static/Images/wallpaperflare.com_wallpaper.jpg" ></div>
+        </div>
+        At movie theaters
+        <div class="banners-mini">
+            <div class="banner"><img src="../static/Images/Hi nanna.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Salaar.jpg"></div>
+            <div class="banner"><img src="../static/Images/Dunki.jpg"></div>
+            <div class="banner"><img src="../static/Images/Dunki.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Dunki.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Dunki.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Dunki.jpg" ></div>
+        </div>
+        Hollywood
+        <div class="banners-mini">
+            <div class="banner"><img src="../static/Images/Spiderman.jpg" ></div>
+            <div class="banner"><img src="../static/Images/MI7.jpg" ></div>
+            <div class="banner"><img src="../static/Images/OP.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Spiderman.jpg" ></div>
+            <div class="banner"><img src="../static/Images/MI7.jpg" ></div>
+            <div class="banner"><img src="../static/Images/OP.jpg" ></div>
+        </div>
+        This year's surprises
+        <div class="banners-mini">
+            <div class="banner"><img src="../static/Images/Sound of freedom.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Baby.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Gran turismo.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Sound of freedom.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Baby.jpg" ></div>
+            <div class="banner"><img src="../static/Images/Gran turismo.jpg" ></div>
+        </div>

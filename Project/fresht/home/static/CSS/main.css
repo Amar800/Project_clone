@@ -1,0 +1,83 @@
+@media screen and (max-width: 480px) {
+    .movies{
+        font-size: 24px;
+        padding: 10px ;
+    }
+    .banner-I {
+        height:180px;
+        min-width: 325px;
+        padding: 5px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .banner-I img{
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+    }
+    .banners-mini{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        overflow-x:auto;
+        overflow-y: hidden;
+        white-space:nowrap;
+    }
+    .banner{
+        height:150px;
+        min-width: 105px;
+        padding: 5px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .banner img{
+        height: 150px;
+        width: 100%;
+        border-radius: 9px;
+    }
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+}
+@media screen and (min-width:480px) {
+    .movies{
+        font-size: 36px;
+        padding: 15px ;
+        margin-top: 20px;
+    }
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    .banner-I {
+        height:250px;
+        min-width: 450px;
+        padding: 15px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .banner-I img{
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+    }
+    .banners-mini{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        overflow-x:auto;
+        overflow-y: hidden;
+        white-space:nowrap;
+    }
+    .banner{
+        height:250px;
+        min-width: 175px;
+        padding: 10px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .banner img{
+        height: 100%;
+        width: 100%;
+        border-radius: 9px;
+    }
+}

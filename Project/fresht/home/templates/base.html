@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/CSS/base.css" rel="stylesheet">
+    {%block css%}{% endblock %}
+    <title>{% block title %} Main page {% endblock %}</title>
+</head>
+<body>
+    <div class="mainbody">
+    <header>
+        <div class="dheader">
+            <div class="logo">
+                Fresh Tomatoes
+            </div>
+            <div class="menu">
+                <div class="buttons"><a href="{% url 'home' %}">Home</a></div>
+                <div class="buttons">Best</div>
+                <div class="buttons">Home</div>
+                {% if user.is_authenticated %}
+                <div class="buttons">
+                    <a href="{% url 'logout' %}">Logout</a>
+                </div>
+                {% else %}
+                <div class="buttons">
+                    <a href="{% url 'login' %}">Login</a>
+                </div>
+                {% endif %}
+            </div>
+            <div class="search">
+                <form action="">
+                    <span class="input-container1"><input type="text" placeholder="Search..." name="search" ></span>
+                    <span class="input-container2"><button type="submit"></button></span>
+                </form>
+            </div>
+        </div>
+        <div class="menu1">
+            <div class="buttons"><a href="{% url 'home' %}">Home</a></div>
+            <div class="buttons">Best</div>
+            <div class="buttons">Home</div>
+            {% if user.is_authenticated %}
+                <div class="buttons">
+                    <a href="{% url 'logout' %}">Logout</a>
+                </div>
+            {% else %}
+                <div class="buttons">
+                    <a href="{% url 'login' %}">Login</a>
+                </div>
+            {% endif %}
+        </div>
+    </header>
+    {% block template %}
+    {% endblock %}
+    </div>
+    </body>
+</body>
+</html>

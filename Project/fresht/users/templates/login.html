@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/login.css">
+    <title>Login page</title>
+</head>
+<body>
+    {% if messages %}
+        {% for message in messages %}
+            <div style="background-color: rgb(250, 148, 59);font-size: 20px;color: white;padding: 8px;">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    <div class="login_box">
+        <div class="user_img">
+            <img src="../static/Images/profile.png">
+        </div>
+        <div class="details">
+            <form name="login_details" method="post" class="login_form">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Username"><br><br>
+                <input type="text" name="password" placeholder="Password"><br><br>
+                <p style="margin-bottom: 10px;"><input type="submit" name="submit" value="Login"></p>
+            </form>
+            Don't have an account? <a href="{% url 'signup' %}">Sign Up</a><br>
+            <a href="">Forgot Password, idiot</a>
+        </div>
+    </div>
+</body>
+</html>

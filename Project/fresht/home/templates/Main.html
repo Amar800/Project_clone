@@ -1,0 +1,30 @@
+{% extends "base.html"%}
+{% block css %}<link rel="stylesheet" href="../static/CSS/main.css">{% endblock %}
+{% block title %} Main page {% endblock %}
+{% block template %}
+    <div class="movies">
+        Top recommendations
+        <div class="banners-mini">
+            {% for i in ctx %}
+                    <div class="banner-I"><a href="{% url 'review' i.slug %}"><img src="{{ i.img }}"></a></div>
+            {% endfor %}
+        </div>
+        At movie theaters
+        <div class="banners-mini">
+            {% for i in ctx_theatre %}
+                <div class="banner"><a href="{% url 'review_theatre' i.slug %}"><img src="{{ i.img }}"></a></div>
+            {% endfor %}
+        </div>
+        Hollywood
+        <div class="banners-mini">
+            {% for i in ctx_hollywood %}
+                <div class="banner"><a href="{% url 'review_hollywood' i.slug %}"><img src="{{ i.img }}"></a></div>
+            {% endfor %}
+        </div>
+        Surprises
+        <div class="banners-mini">
+            {% for i in ctx_surprises %}
+                <div class="banner"><a href="{% url 'review_surprises' i.slug %}"><img src="{{ i.img }}"></a></div>
+            {% endfor %}
+        </div>
+{% endblock %}
