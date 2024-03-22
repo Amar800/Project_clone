@@ -28,5 +28,5 @@ urlpatterns = [
     path('signup', views.signup , name="signup"),
     path('users/',include("django.contrib.auth.urls")),
     path('users/',include("users.urls")),
-    path('user_review/<slug:n>', views.user_review.as_view(), name="user_review")
+    path('user_review_page/<slug:n>/<slug:m>', views.user_review_page.as_view(), name="user_review_page")
 ]

@@ -1,6 +1,64 @@
 @media  screen and (max-width:480px) {
-    
+    body{font-size: 24px;}
+    .review_box{
+        width:80%;
+        text-align: left;
+        padding: 25px;
+        margin: auto;
+        border-radius: 25px;
+        border-color: rgb(130, 120, 114);
+        line-height: 60px;
+        font-size: 17px;
+    }
+    .hidden{
+        display: none;
+    }
+    .Movie{
+        display: none;
+    }
+    .Movie_mobile{
+        margin-top: 15px;
+        height: 200px;
+    }
+    .name_mobile{
+        text-align: center;
+    }
 }
 @media screen and (min-width:480px){
-    
+    body{
+        font-size: 28px;
+        text-align: center;
+    }
+    .review_box{
+        width:55%;
+        text-align: left;
+        padding: 25px;
+        border-radius: 25px;
+        border-color: rgb(130, 120, 114);
+        line-height: 60px;
+        font-size: 17px;
+    }
+    .review_box form{
+        width:100%;
+    }
+    .outer_box{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .Movie{
+        width: 45%;
+        height:300px;
+        margin-right: 15px;
+    }
+    .hidden{
+        display: none;
+    }
+    .Movie_mobile{
+        display: none;
+    }
+    .name_mobile{
+        text-align: left;
+        margin-left: 35px;
+    }
 }

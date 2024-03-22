@@ -64,6 +64,20 @@
         text-align: center;
         font-size: 24px;
     }
+    .mobile_review .review_button{
+        background-color: black;
+        width:fit-content;
+        padding: 8px;
+        color: white;
+        font-size:22px ;
+        margin-left: 10px;
+    }
+    .pc_review{
+        display: none;
+    }
+    .mobile_review{
+        margin-left: 120px;
+    }
 }
 @media screen and (min-width: 480px) {
     .Reviews{
@@ -142,5 +156,8 @@
         color: white;
         font-size:22px ;
         margin-left: 10px;
+    }
+    .mobile_review{
+        display: none;
     }
 }
